@@ -4,6 +4,8 @@ import { CommonModule } from '@angular/common';
 import { BooksVersionsRoutingModule } from './books-versions-routing.module';
 import { BooksVersionsComponent } from './books-versions/books-versions.component';
 
+import { ReactiveFormsModule } from '@angular/forms';
+import { AppMaterialModule } from '../shared/app-material/app-material.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +13,9 @@ import { BooksVersionsComponent } from './books-versions/books-versions.componen
   ],
   imports: [
     CommonModule,
-    BooksVersionsRoutingModule
+    BooksVersionsRoutingModule,
+    ReactiveFormsModule,
+    AppMaterialModule
   ]
 })
 export class BooksVersionsModule { }
