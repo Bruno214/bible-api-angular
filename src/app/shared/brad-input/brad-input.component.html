@@ -1,0 +1,20 @@
+ <form class="version-selection-form">
+        <mat-form-field appearance="outline" class="full-width-input">
+          <mat-label>{{ label }}</mat-label>
+            <input #input
+              type="text"
+              [placeholder]="placeholder"
+              [attr.aria-label]="label"
+              matInput
+              (input)="filter()"
+              (focus)="filter()"
+              [formControl]="myControl"
+              [matAutocomplete]="auto">
+
+          <mat-autocomplete #auto="matAutocomplete" (optionSelected)="onOptionSelected($event)">
+            @for (version of filteredVersions; track version) {
+              <mat-option [value]="version">{{ version }}</mat-option>
+            }
+          </mat-autocomplete>
+        </mat-form-field>
+</form>

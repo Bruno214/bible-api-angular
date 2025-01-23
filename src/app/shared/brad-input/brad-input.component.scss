@@ -1,0 +1,35 @@
+.full-width-input {
+  width: 100%;
+}
+
+// style input focus out
+
+::ng-deep .mdc-text-field--outlined .mdc-notched-outline__leading {
+  border-color: #2196f3 !important;
+}
+
+::ng-deep .mdc-text-field--outlined .mdc-notched-outline__notch {
+  border-color: #2196f3 !important;
+
+}
+
+::ng-deep .mdc-text-field--outlined .mdc-notched-outline__trailing {
+  border-color: #2196f3 !important;
+}
+
+// style input focus in
+
+// ::ng-deep .mdc-text-field--outlined.mdc-text-field--focused .mdc-notched-outline__notch {
+//   border-color: rgb(60, 1, 255) !important;
+
+// }
+
+// ::ng-deep .mdc-text-field--outlined.mdc-text-field--focused .mdc-notched-outline__leading {
+//   border-color: rgb(60, 1, 255) !important;
+
+// }
+
+// ::ng-deep .mdc-text-field--outlined.mdc-text-field--focused .mdc-notched-outline__trailing {
+//   border-color: rgb(9, 176, 218) !important;
+// }
+
