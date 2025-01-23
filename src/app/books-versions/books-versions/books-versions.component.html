@@ -1,1 +1,31 @@
-<p>books-versions works!</p>
+<mat-card class="responsive-card-container" style="border: none;">
+  <mat-card class="bible-version-card" appearance="outlined">
+    <mat-card-header>
+      <div mat-card-avatar class="bible-card-avatar"></div>
+      <mat-card-title>Versões da Biblia</mat-card-title>
+      <mat-card-subtitle>Escolha uma Versão</mat-card-subtitle>
+
+    </mat-card-header>
+
+    <app-brad-input
+      [label]="'Versão'"
+      [placeholder]= "'toque para alterar a versão'"
+      [versions]="versions"
+      [myControl]="myControl"
+    >
+
+    </app-brad-input>
+
+    <img mat-card-image src="https://media.istockphoto.com/id/1505865534/pt/foto/open-bible-on-a-wooden-board-near-the-river.jpg?s=612x612&w=0&k=20&c=x2Ga9b9_wEihPmmlLdhaP6WHSe_weucsN-sjOsnaC0M=" alt="Photo of a Bible">
+    <mat-card-content>
+      <p>
+        Escolha a versão da biblia que gostaria de ler de forma online e gratuita.Explore as imensas possibilidades
+        melhore seus estudos, crie marcações, percorra de maneira rápida e inteligente pelos livros e capítulos
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button class="button-escolher animated-button">ESCOLHER</button>
+    </mat-card-actions>
+  </mat-card>
+</mat-card>
+

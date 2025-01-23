@@ -1,0 +1,54 @@
+.bible-version-card{
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  padding: 5px;
+}
+
+.bible-card-avatar {
+  background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p1/23515052-livro-igreja-logotipo-projeto-icone-biblia-igreja-logotipo-projeto-cruz-e-piedosos-biblia-logotipo-vetor.jpg');
+  background-size: cover;
+}
+
+.version-selection-form {
+  width: 100%;
+}
+
+.full-width-input {
+  width: 100%;
+}
+
+.responsive-card-container {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .bible-version-card {
+    padding: 15px;
+  }
+
+  .responsive-card-container {
+    padding: 15px;
+  }
+}
+
+.button-escolher {
+  margin: 10px 0px 10px 0px;
+  padding: 15px;
+  border-radius: 25px;
+  width: 100%;
+  background-color: rgb(45, 143, 255);
+  color: white;
+}
+
+.animated-button:hover {
+  background-color: rgb(93, 169, 255);
+  transform: scale(1.02);
+}
+
+p {
+  margin-top: 10px;
+}
